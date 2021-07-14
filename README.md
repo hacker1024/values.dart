@@ -22,7 +22,7 @@ Value3=C
 
 ## Usage
 See the example for example usage.
-The standard [`Codec`][Codec] interface implemented by `ValuesCodec`.
+The standard [`Codec`][Codec] interface is implemented by `ValuesCodec`.
 
 [Codec]: https://api.dart.dev/stable/2.13.4/dart-convert/Codec-class.html
 
