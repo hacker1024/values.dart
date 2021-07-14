@@ -28,3 +28,9 @@ The standard [`Codec`][Codec] interface implemented by `ValuesCodec`.
 
 ## Roadmap
 - Chunked conversions
+
+## Motivation
+This method of serialization is common in APIs and preference storage.  
+I don't recommend you use this if you're designing an API or storing your own preferences;
+formats like JSON, XML and YAML are much better for that kind of thing. This package is useful
+for using this format when you have no other choice.
